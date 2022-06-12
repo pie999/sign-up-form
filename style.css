@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.image {
+    background-image: url(./files/sergey-kvint-VvhWzfOn2GY-unsplash.jpg);
+    background-size: cover;
+    position: relative;
+    flex: 1;
+}
+
+header {
+    margin-top: 20vh;
+    text-align: center;
+    color: wheat;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 2vh;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.page {
+    flex: 2;
+    background-color: rgb(255, 233, 161);
+    
+}
+
+h2 {
+    margin: 3vh 3vw;
+    
+}
+
+.containerForm {
+    padding: 3vh 3vw;
+    background-color: white;
+}
+
+h3 {
+    margin-bottom: 3vh;
+}
+
+button {
+    margin: 3vh 3vw;
+}
+
+h6 {
+    margin: 3vh 3vw;
+}
